@@ -1,0 +1,168 @@
+body {
+    margin: 0;
+    border: 5px solid black;
+    height: 150vh;
+    position: relative;
+}
+
+h1 {
+    background-color: rgba(163, 123, 236, 0.896);
+    width: 10%;
+}
+
+.button {
+    background-color: rgb(44, 182, 207);
+    color: white;
+    border-radius: 10px;
+    height: 40px;
+    width: 100px;
+    border: none;
+    cursor: pointer;
+}
+.button:hover {
+    background-color: rgb(34, 136, 154);
+}
+.button:active {
+    background-color: rgb(34, 136, 154);
+}
+
+/* mock 1 css above */
+
+.semi {
+    position: relative;
+    left: 40%;
+    background-color: rgb(222, 222, 222);
+    border: 3px solid grey;
+    border-radius: 4%;
+    width: 23em;
+}
+
+.flag {
+    position: relative;
+    height: 13.6rem;
+    border-top-right-radius: 6%;
+    border-top-left-radius: 6%;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+p {
+    position: relative;
+    left: 5%;
+    font-size: 13px;
+    text-align: left;
+    width: 20rem;
+}
+
+/* mock 2 css above */
+
+.gif1 {
+    position: relative;
+    padding: 0;
+    width: 450px;
+    display: block;
+    cursor: pointer;
+    overflow: hidden;
+  }
+  .gif1cont {
+    opacity: 0;
+    font-size: 19px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #000000;
+    background-color: rgba(200, 200, 200, 0.5);
+    width: 330px;
+    height: 299px;
+    transition: all 300ms ease-in;
+    text-align: center;
+  }
+  .gif1 .gif1cont:hover {
+    opacity: 1;
+  }
+  .gif1 .gif1cont .word1 {
+    height: 0;
+    opacity: 1;
+    transition-delay: 0s;
+    transition-duration: 1s;
+  }
+  .gif1 .gif1cont:hover .word1 {
+    opacity: 1;
+    transform: translateY(150px);
+  }
+
+  .lol {
+    height:250px;
+  }
+
+  .gif2 {
+    position: relative;
+    padding: 0;
+    width: 550px;
+    display: block;
+    cursor: pointer;
+    overflow: hidden;
+  }
+  .gif2cont {
+    opacity: 0;
+    font-size: 19px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #000000;
+    background-color: rgba(200, 200, 200, 0.5);
+    width: 545px;
+    height: 299px;
+    transition: all 300ms ease-in;
+    text-align: center;
+  }
+  .gif2 .gif2cont:hover {
+    opacity: 1;
+  }
+  .gif2 .gif2cont .word2 {
+    height: 0;
+    opacity: 1;
+    transition-delay: 0s;
+    transition-duration: 1s;
+  }
+  .gif2 .gif2cont:hover .word2 {
+    opacity: 1;
+    transform: translateY(150px);
+  }
+
+  .gif3 {
+    position: relative;
+    width: 450px;
+    display: block;
+    cursor: pointer;
+    overflow: hidden;
+  }
+  .gif3cont {
+    opacity: 0;
+    font-size: 19px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #000000;
+    background-color: rgba(200, 200, 200, 0.5);
+    width: 400px;
+    height: 299px;
+    transition: all 300ms ease-in;
+    text-align: center;
+  }
+  .gif3 .gif3cont:hover {
+    opacity: 1;
+  }
+  .gif3 .gif3cont .word3 {
+    height: 0;
+    opacity: 1;
+    transition-delay: 0s;
+    transition-duration: 1s;
+  }
+  .gif3 .gif3cont:hover .word3 {
+    opacity: 1;
+    transform: translateY(150px);
+  }
+
